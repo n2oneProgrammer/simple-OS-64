@@ -1,0 +1,1 @@
+docker run --rm -it -v "D:\projekty\CLionProjects\PonchoOSLrarn:/root/env" myos-buildenv /root/env/compile.bat

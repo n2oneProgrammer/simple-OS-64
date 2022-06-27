@@ -1,0 +1,6 @@
+*.o
+*.bin
+*.flp
+bochsrc.bxrc
+.idea
+cmake-build-debug
