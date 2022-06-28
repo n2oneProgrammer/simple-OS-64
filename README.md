@@ -1,0 +1,1 @@
+very simple 64 bit OS. Based on [Poncho old series](https://www.youtube.com/watch?v=7LTB4aLI7r0&list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-&index=1&ab_channel=Poncho)
