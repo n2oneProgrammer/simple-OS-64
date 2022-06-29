@@ -4,14 +4,14 @@ ENTRY (_start)
 
 INPUT
 (
-    extendedMemory.o
-    Binaries.o
-    Kernel.o
+    build/extendedMemory.o
+    build/Binaries.o
+    build/Kernel.o
 )
 
 OUTPUT
 (
-  Kernel.bin
+  build/Kernel.bin
 )
 
 SECTIONS
