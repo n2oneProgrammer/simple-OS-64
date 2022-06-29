@@ -3,4 +3,4 @@ project(PonchoOSLrarn)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PonchoOSLrarn kernel.cpp)
+add_executable(PonchoOSLrarn src/kernel/kernel.cpp)

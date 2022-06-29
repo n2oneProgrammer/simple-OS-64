@@ -1,8 +1,8 @@
 
 jmp EnterProtectedMode
 
-%include "gdt.asm"
-%include "print.asm"
+%include "src/gdt.asm"
+%include "src/print.asm"
 
 
 EnterProtectedMode:
@@ -22,8 +22,8 @@ EnableA20:
 
 [bits 32]
 
-%include "CPUID.asm"
-%include "SimplePaging.asm"
+%include "src/CPUID.asm"
+%include "src/SimplePaging.asm"
 
 StartProtectedMode:
 
@@ -56,7 +56,7 @@ StartProtectedMode:
 
 [extern _start]
 
-%include "IDT.asm"
+%include "src/kernel/IDT.asm"
 
 Start64Bit:
 	mov edi, 0xb8000
